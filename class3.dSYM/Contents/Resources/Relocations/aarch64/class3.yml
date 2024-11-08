@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/useruser/Documents/CSC308/class3'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _addition, symObjAddr: 0x0, symBinAddr: 0x100003BFC, symSize: 0x20 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _addition, symObjAddr: 0x0, symBinAddr: 0x100003BFC, symSize: 0x20 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _subtraction, symObjAddr: 0x20, symBinAddr: 0x100003C1C, symSize: 0x20 }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _multiplication, symObjAddr: 0x40, symBinAddr: 0x100003C3C, symSize: 0x20 }
+  - { offsetInCU: 0xE3, offset: 0xE3, size: 0x8, addend: 0x0, symName: _division, symObjAddr: 0x60, symBinAddr: 0x100003C5C, symSize: 0x20 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x80, symBinAddr: 0x100003C7C, symSize: 0x1C8 }
+...
